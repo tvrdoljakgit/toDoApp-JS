@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.input-field {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 15px;
+}
+
+.submit {
+  display: block;
+  padding: 15px;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #2192ff;
+  border-radius: 15px;
+  background-color: #2192ff;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.checkbox-value {
+  margin-left: 20px;
+  font-size: 20px;
+  display: inline;
+}
+
+.btn-delete {
+  background-color: #ff5252;
+  border: 1px solid #ff5252;
+  border-radius: 5px;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+}
+
+.container {
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.remove button {
+  background-color: #ff5252;
+  border: 1px solid #ff5252;
+  padding: 2px 4px;
+  color: #fff;
+}
+
+.overline {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
